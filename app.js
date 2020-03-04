@@ -23,7 +23,7 @@ app.use("/api/users",users);
 app.use("/api/auth",auth);
 
 mongoose
-  .connect("mongodb://localhost/herodb", {
+  .connect("mongodb+srv://Yanik:<yanik>@cluster0-lw3uy.mongodb.net/herodb?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
